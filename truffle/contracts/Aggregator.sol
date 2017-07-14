@@ -1,6 +1,9 @@
 pragma solidity ^0.4.4;
 
-/*
+/* 
+Eric Munsing - e.munsing@berkeley.edu
+MIT license    2017
+
 GOAL: 
 - Accept estimates of state variables from each devices
 - Publish an updated aggregator aggregator variable when all state estimates have been recieved
@@ -25,7 +28,14 @@ PSEUDOCODE:
 - Once the schedule is saved, don't do anything (in the future, this should reset on each market clearing block)
 */ 
 
+/* TO-DO:
 
+- Turn variables into vectors
+- Include all consensus variables
+- Compute full aggregator averaging step
+- 
+
+*/
 
 contract Aggregator {
 	// ADMM aggregator step

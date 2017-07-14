@@ -5,6 +5,5 @@
 .env
 .ipynb_checkpoints/
 env/
-Data/
 Data
 nohup.out
